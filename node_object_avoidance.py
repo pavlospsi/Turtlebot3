@@ -25,7 +25,7 @@ def LaserValues(msg):
     global straight
     global Fleft
     global Fright
-    #print ("kappa kippo", len(msg.ranges),msg.ranges[0], msg.ranges[359])
+    #print ("test", len(msg.ranges),msg.ranges[0], msg.ranges[359])
     straight=min(min(msg.ranges[0:10]),min(msg.ranges[349:359]))
     #right=min(msg.ranges[269:304])
     Fright = min(msg.ranges[330:349])
